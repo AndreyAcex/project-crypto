@@ -1,0 +1,185 @@
+body {
+  padding: 0 120px 0 120px;
+}
+.section1-container {
+  padding: 80px 20px 20px 30px;
+}
+
+.background-block-section1 {
+  background-color: #5c4eae;
+  height: 160px;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 20px;
+  color: #fff;
+  max-width: 314px;
+}
+.image-with-background-section1 {
+  position: relative;
+  bottom: 140px;
+  left: 10px;
+}
+.border-block-plan-pricing-section2 {
+  border: 1px solid #f9f9f9;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+.title-name-of-plan-pricing {
+  font-size: 26px;
+  font-weight: 600;
+  padding: 20px 0 20px 0;
+}
+.price-for-basic-plan {
+  padding-bottom: 20px;
+}
+.price-number {
+  font-size: 45px;
+  font-weight: 600;
+}
+.symbol-of-currency {
+  font-size: 18px;
+  position: relative;
+  top: -20px;
+}
+.parag-info-plan-pricing-section2 {
+  font-size: 14px;
+  padding-top: 20px;
+  font-weight: 500;
+  color: #6e757c;
+}
+.btn-basic {
+  width: 100%;
+  max-width: 104px;
+  height: 42px;
+  background-color: #5c4eae;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 11px;
+  border: none;
+}
+.button-pricing-basic {
+  padding-top: 16px;
+}
+
+/* for desktop cards */
+.border-plans-container-desktop {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+}
+.border-block-all-plans-desktop {
+  display: flex;
+  justify-content: space-between;
+}
+.pricing-title-area-plans,
+.basic-title-area-plans,
+.premiun-title-area-plans {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.pricing-parag-area-plans,
+.basic-parag-area-plans,
+.premiun-parag-area-plans {
+  font-size: 16px;
+  padding: 30px 0px 40px 0;
+  font-weight: 500;
+  color: #6e757c;
+}
+.price-for-basic-plan,
+.price-for-basic-plan {
+  padding-top: 50px;
+}
+.benefits-area-container {
+  padding-top: 80px;
+}
+.price-number {
+  font-size: 64px;
+}
+.benefits-title-area {
+  font-size: 28px;
+  font-weight: 600;
+  padding-bottom: 50px;
+}
+.benefits-points-column-area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.benefits-point {
+  font-size: 24px;
+  font-weight: 500;
+}
+.image-point {
+  width: 30px;
+  height: 30px;
+}
+.images-benefints-points {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 195px;
+}
+.benefits-with-images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section2-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+.dropdown-button-basic {
+  background-color: #fff;
+  padding: 33px 0px 20px 0px;
+  border: none;
+}
+.image-text-container-basic {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-text-parag-basic {
+  padding: 10px 0 10px 0px;
+}
+.dropdown-content-basic {
+  padding-bottom: 20px;
+}
+@media (min-width: 900px) {
+  .image-with-background-section1 {
+    display: none;
+  }
+  .background-block-section1 {
+    max-width: 100%;
+    height: 330px;
+    font-size: 48px;
+    padding-top: 40px;
+  }
+  .image-with-background-desktop-section1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 260px;
+  }
+}
+@media (max-width: 900px) {
+  .image-with-background-desktop-section1 {
+    display: none;
+  }
+}
+@media (max-width: 1150px) {
+  .border-plans-container-desktop {
+    display: none;
+  }
+}
+@media (min-width: 1150px) {
+  .border-block-plan-pricing-section2 {
+    display: none;
+  }
+}

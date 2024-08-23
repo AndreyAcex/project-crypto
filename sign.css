@@ -1,0 +1,146 @@
+.title-text-left-section1 {
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.section1-container {
+  padding-top: 100px;
+}
+
+.button-left-container-section1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-top: 40px;
+  justify-content: center;
+}
+.logo-site {
+  padding: 20px;
+  padding-bottom: 40px;
+}
+.right-side-section1 {
+  background-color: rgba(108, 95, 188, 1);
+}
+.btn-logo1-left-section1 {
+  height: 50px;
+  width: 100%;
+  max-width: 145px;
+  border: none;
+  border-radius: 10px;
+}
+.text-sign-between {
+  font-size: 18px;
+  color: #005a6459;
+  text-align: center;
+  padding: 25px 0 25px 0;
+}
+
+.input-name-left,
+.input-email-left,
+.input-password-left {
+  height: 60px;
+  background-color: rgba(238, 238, 238, 1);
+  width: 100%;
+  max-width: 309px;
+  border: none;
+  border-radius: 11px;
+  padding-left: 35px;
+}
+.input-name-area-left,
+.input-email-area-left,
+.input-password-area-left {
+  display: flex;
+  justify-content: center;
+}
+.inputs-sign-container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.image-input-left {
+  position: relative;
+  left: 25px;
+  top: 23px;
+}
+.button-input-container-left {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.btn-sign-input-left {
+  height: 60px;
+  width: 100%;
+  max-width: 310px;
+  border: none;
+  background-color: rgba(108, 95, 188, 1);
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+.text-link-to-login {
+  text-align: center;
+  padding-top: 20px;
+}
+.text-bottom-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.privacy-bottom-left {
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (min-width: 900px) {
+  .section1-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    height: auto;
+  }
+  .title-area-right {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+  }
+  .parag-area-right {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 20px;
+  }
+  .right-side-section1 {
+    width: 50%;
+    padding: 20px;
+  }
+  .left-side-section1 {
+    width: 50%;
+    padding: 20px;
+  }
+  .image-area-right {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 107px;
+  }
+  footer {
+    display: none;
+  }
+  .text-area-right {
+    text-align: center;
+  }
+  .text-bottom-left {
+    padding-top: 110px;
+  }
+}
+@media (max-width: 900px) {
+  .right-side-section1 {
+    display: none;
+  }
+  .logo-site {
+    display: none;
+  }
+  .text-bottom-left {
+    display: none;
+  }
+}

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/project1-html/normalize.css" />
+    <link rel="stylesheet" href="/project1-html/base.css" />
+    <link rel="stylesheet" href="/project1-html/menu.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="container-header">
+          <div class="container-desktop-header-left">
+            <div class="left-header-container">
+              <div class="logo-header">
+                <a href="index.html">
+                  <img src="/project1-html/images/Logo (4).png" alt="Logo" />
+                </a>
+              </div>
+            </div>
+            <div class="center-header-container">
+              <div class="alinks-next-page-center-header">
+                <a href="/project1-html/menu.html"
+                  ><span class="rainbow-title-section1">Menu</span></a
+                >
+                <a href="/project1-html/blog.html">Blog</a>
+                <a href="/project1-html/pricing.html">Pricing</a>
+                <a href="/project1-html/contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="right-header-container">
+            <div class="dropdown">
+              <button class="dropdown-toggle">
+                <span class="menu-icon">☰</span>
+                <span class="close-icon">✖</span>
+              </button>
+
+              <div class="dropdown-menu">
+                <a href="/project1-html/blog.html">Blog</a>
+                <a href="menu.html">Menu</a>
+                <a href="#">About Us</a>
+                <a href="/project1-html/contact.html">Contact</a>
+              </div>
+            </div>
+            <div class="button-registr-right-header">
+              <button class="login-btn-header">
+                <a href="login.html">Login</a>
+              </button>
+              <button class="sign-btn-header">
+                <a href="/project1-html/sign.html">Sign Up</a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </header>
+      <section class="section1-container-blog padding-body">
+        <div class="container-food_price-input">
+          <div class="block-subscribe-sale-section7">
+            <div class="text-area-subscribe">
+              <div class="title-text-subscribe-section1">50% OFF</div>
+              <div class="title-date-subscribe-section1">WEEKEND</div>
+            </div>
+          </div>
+          <div class="image-food-subscribe-block">
+            <img
+              src="/project1-html/images/Food Image (2).png"
+              alt="food image"
+            />
+          </div>
+          <div class="image-food-subscribe-desktop-block">
+            <img
+              src="/project1-html/images/Food Image (3).png"
+              alt="food image"
+              width="240px"
+              height="260px"
+            />
+          </div>
+
+          <div class="input-search-section1 padding-body">
+            <div class="input-search">
+              <input type="text" placeholder="Search" />
+            </div>
+            <div class="buttons-input-section1">
+              <button class="food-btn-input-section1">Food</button>
+              <button class="restaunt-btn-input-section1">Resturent</button>
+            </div>
+          </div>
+        </div>
+        <div class="price-select-block-container padding-allside">
+          <div class="title-name-of-block-price">Category</div>
+          <div class="food-select-block-container padding-top-bottom">
+            <div class="pizza-select-container foods-display">
+              <img src="/project1-html/images/Pizza.png" alt="pizza" />
+              <div class="name-of-food-pizza-select fontsize-food">Pizza</div>
+            </div>
+
+            <div class="asian-select-container foods-display">
+              <img src="/project1-html/images/Hotdog.png" alt="donat" />
+              <div class="name-of-food-asian-select fontsize-food">Asian</div>
+            </div>
+
+            <div class="donat-select-container foods-display">
+              <img src="/project1-html/images/Doughnut.png" alt="donat" />
+              <div class="name-of-food-donat-select fontsize-food">Donat</div>
+            </div>
+
+            <div class="icecream-select-container foods-display">
+              <img src="/project1-html/images/Icecream.png" alt="ice" />
+              <div class="name-of-food-icecream-select fontsize-food">Ice</div>
+            </div>
+          </div>
+          <div>
+            <div class="title-name-of-block-price">Sort By</div>
+            <div class="delivery-two-text-price">
+              <div class="recomended-parag-price">Recomended</div>
+              <div class="delivery-parag-price">Fast Delivery</div>
+            </div>
+            <div class="recomended-parag-price">Most Popular</div>
+          </div>
+
+          <div class="price-scroll-select-container padding-top-bottom">
+            <div class="title-name-of-block-price">Price</div>
+            <div>
+              <div class="price-slider">
+                <input
+                  type="range"
+                  id="priceRange"
+                  min="0"
+                  max="10000"
+                  step="100"
+                  value="5000"
+                  oninput="updatePriceValue(this.value)"
+                />
+              </div>
+              <div class="price-for-slider">
+                <div class="style-of-price-parag-slider">$0</div>
+                <div class="style-of-price-parag-slider">$25</div>
+                <div class="style-of-price-parag-slider">$50</div>
+                <div class="style-of-price-parag-slider">$100</div>
+                <div class="style-of-price-parag-slider">$150</div>
+                <div class="style-of-price-parag-slider">$200</div>
+              </div>
+            </div>
+            <div class="button-danger-slider">
+              <button class="apply-btn-slider">Apply</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="section4-container">
+          <div class="text-area-section4">
+            <div class="title-area-section3">
+              Our Top <br />
+              <span class="rainbow-title-section1">Restaurants</span>
+            </div>
+          </div>
+          <div class="cards-container-section4 padding-body">
+            <div class="card1-section4">
+              <img
+                class="image-food-card1"
+                src="/project1-html/images/Mask Group.png"
+                alt="food"
+              />
+              <div class="text-info-card1 padding-body">
+                <div class="info-area-card1">Healthy</div>
+                <div class="name-food-card1">The Chicken King</div>
+                <div class="bottom-info-container-card1">
+                  <div class="left-side-small-info-card1">
+                    <div class="time-food-card1">24min</div>
+                    <img src="/project1-html/images/Star (1).png" alt="star" />
+                    <div class="time-food-card1">4.8</div>
+                  </div>
+                  <div>
+                    <img src="/project1-html/images/Book Mark.png" alt="book" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card1-section4">
+              <img
+                class="image-food-card1"
+                src="/project1-html/images/Mask Group.png"
+                alt="food"
+              />
+              <div class="text-info-card1 padding-body">
+                <div class="info-danger-area-card2">Trending</div>
+                <div class="name-food-card1">The Burger King</div>
+                <div class="bottom-info-container-card1">
+                  <div class="left-side-small-info-card1">
+                    <div class="time-food-card1">24min</div>
+                    <img src="/project1-html/images/Star (1).png" alt="star" />
+                    <div class="time-food-card1">4.8</div>
+                  </div>
+                  <div>
+                    <img src="/project1-html/images/Book Mark.png" alt="book" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card1-section4">
+              <img
+                class="image-food-card1"
+                src="/project1-html/images/Mask Group.png"
+                alt="food"
+              />
+              <div class="text-info-card1 padding-body">
+                <div class="info-area-card1">Healthy</div>
+                <div class="name-food-card1">The Chicken King</div>
+                <div class="bottom-info-container-card1">
+                  <div class="left-side-small-info-card1">
+                    <div class="time-food-card1">24min</div>
+                    <img src="/project1-html/images/Star (1).png" alt="star" />
+                    <div class="time-food-card1">4.8</div>
+                  </div>
+                  <div>
+                    <img src="/project1-html/images/Book Mark.png" alt="book" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="alink-to-all-foods padding-body">
+          <a href="#">View All ></a>
+        </div>
+      </section>
+      <section>
+        <div class="section5-container">
+          <div class="text-area-section5">
+            <div class="title-area-section3">
+              Our Top <br />
+              <span class="rainbow-title-section1">Dishes</span>
+            </div>
+          </div>
+          <div class="cards-container-section5 padding-body">
+            <div class="card-number1-section5">
+              <div class="image-area-card1-section5">
+                <img src="/project1-html/images/Food Image.png" alt="food" />
+              </div>
+              <div class="info-area-card1">Healthy</div>
+              <div class="name-food-card1">Chicken Hell</div>
+              <div class="left-side-small-info-card1">
+                <div class="time-food-card1">24min</div>
+                <img src="/project1-html/images/Star (1).png" alt="star" />
+                <div class="time-food-card1">4.8</div>
+              </div>
+              <div class="price-card1-container-section5">
+                <div class="price-card1-section5">
+                  <span class="title-price-section5">$12</span
+                  ><span class="cent-price-section5">.99</span>
+                </div>
+                <a href="#"
+                  ><img src="/project1-html/images/Add.png" alt="add"
+                /></a>
+              </div>
+            </div>
+
+            <div class="card-number1-section5">
+              <div class="image-area-card1-section5">
+                <img src="/project1-html/images/Food Image.png" alt="food" />
+              </div>
+              <div class="info-area-card1">Healthy</div>
+              <div class="name-food-card1">Chicken Hell</div>
+              <div class="left-side-small-info-card1">
+                <div class="time-food-card1">24min</div>
+                <img src="/project1-html/images/Star (1).png" alt="star" />
+                <div class="time-food-card1">4.8</div>
+              </div>
+              <div class="price-card1-container-section5">
+                <div class="price-card1-section5">
+                  <span class="title-price-section5">$12</span
+                  ><span class="cent-price-section5">.99</span>
+                </div>
+                <a href="#"
+                  ><img src="/project1-html/images/Add.png" alt="add"
+                /></a>
+              </div>
+            </div>
+
+            <div class="card-number1-section5">
+              <div class="image-area-card1-section5">
+                <img src="/project1-html/images/Food Image.png" alt="food" />
+              </div>
+              <div class="info-area-card1">Healthy</div>
+              <div class="name-food-card1">Chicken Hell</div>
+              <div class="left-side-small-info-card1">
+                <div class="time-food-card1">24min</div>
+                <img src="/project1-html/images/Star (1).png" alt="star" />
+                <div class="time-food-card1">4.8</div>
+              </div>
+              <div class="price-card1-container-section5">
+                <div class="price-card1-section5">
+                  <span class="title-price-section5">$12</span
+                  ><span class="cent-price-section5">.99</span>
+                </div>
+                <a href="#"
+                  ><img src="/project1-html/images/Add.png" alt="add"
+                /></a>
+              </div>
+            </div>
+
+            <div class="card-number1-section5">
+              <div class="image-area-card1-section5">
+                <img src="/project1-html/images/Food Image.png" alt="food" />
+              </div>
+              <div class="info-area-card1">Healthy</div>
+              <div class="name-food-card1">Chicken Hell</div>
+              <div class="left-side-small-info-card1">
+                <div class="time-food-card1">24min</div>
+                <img src="/project1-html/images/Star (1).png" alt="star" />
+                <div class="time-food-card1">4.8</div>
+              </div>
+              <div class="price-card1-container-section5">
+                <div class="price-card1-section5">
+                  <span class="title-price-section5">$12</span
+                  ><span class="cent-price-section5">.99</span>
+                </div>
+                <a href="#"
+                  ><img src="/project1-html/images/Add.png" alt="add"
+                /></a>
+              </div>
+            </div>
+
+            <div class="card-number1-section5">
+              <div class="image-area-card1-section5">
+                <img src="/project1-html/images/Food Image.png" alt="food" />
+              </div>
+              <div class="info-area-card1">Healthy</div>
+              <div class="name-food-card1">Chicken Hell</div>
+              <div class="left-side-small-info-card1">
+                <div class="time-food-card1">24min</div>
+                <img src="/project1-html/images/Star (1).png" alt="star" />
+                <div class="time-food-card1">4.8</div>
+              </div>
+              <div class="price-card1-container-section5">
+                <div class="price-card1-section5">
+                  <span class="title-price-section5">$12</span
+                  ><span class="cent-price-section5">.99</span>
+                </div>
+                <a href="#"
+                  ><img src="/project1-html/images/Add.png" alt="add"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="alink-to-all-foods padding-body">
+            <a href="#">View All ></a>
+          </div>
+        </div>
+      </section>
+      <section class="section3-container">
+        <div class="text-area-section3">
+          <div class="title-area-section3">
+            Frequently Asked <br />
+            <span class="rainbow-title-section1">Questions</span>
+          </div>
+        </div>
+        <!-- start -->
+        <div class="container-toggle padding-body">
+          <div class="text-block">
+            <div class="title-name-toggle">How long does delivery take?</div>
+            <div class="plus-button" onclick="toggleText(1)">+</div>
+            <div id="hidden-text-1" class="hidden-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem aspernatur possimus, praesentium enim vero dolores
+              molestias ut neque minus at.
+            </div>
+          </div>
+          <!-- '' -->
+          <div class="text-block">
+            <div class="title-name-toggle">How Does It Work ?</div>
+            <div class="plus-button" onclick="toggleText(2)">+</div>
+            <div id="hidden-text-2" class="hidden-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem aspernatur possimus, praesentium enim vero dolores
+              molestias ut neque minus at.
+            </div>
+          </div>
+          <!-- '' -->
+          <div class="text-block">
+            <div class="title-name-toggle">
+              How does your food delivery service work?
+            </div>
+            <div class="plus-button" onclick="toggleText(3)">+</div>
+            <div id="hidden-text-3" class="hidden-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem aspernatur possimus, praesentium enim vero dolores
+              molestias ut neque minus at.
+            </div>
+          </div>
+          <!-- '' -->
+          <div class="text-block">
+            <div class="title-name-toggle">
+              What payment options do you accept?
+            </div>
+            <div class="plus-button" onclick="toggleText(4)">+</div>
+            <div id="hidden-text-4" class="hidden-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem aspernatur possimus, praesentium enim vero dolores
+              molestias ut neque minus at.
+            </div>
+          </div>
+          <!-- '' -->
+          <div class="text-block">
+            <div class="title-name-toggle">
+              Do you offer discounts or promotions?
+            </div>
+            <div class="plus-button" onclick="toggleText(5)">+</div>
+            <div id="hidden-text-5" class="hidden-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem aspernatur possimus, praesentium enim vero dolores
+              molestias ut neque minus at.
+            </div>
+          </div>
+        </div>
+        <!-- finish -->
+      </section>
+      <footer class="footer-container">
+        <div class="footer-top-side">
+          <div class="logo-footer">
+            <img src="/project1-html/images/Logo (5).png" alt="Logo" />
+          </div>
+          <div class="social-icons-footer">
+            <img src="/project1-html/images/Path 7.png" alt="path" />
+            <img src="/project1-html/images/Path 6.png" alt="path" />
+            <img src="/project1-html/images/Group 888.png" alt="path" />
+            <img src="/project1-html/images/Path 13.png" alt="path" />
+          </div>
+        </div>
+        <div class="footer-center padding-body">
+          <a href="#">BLOG</a>
+          <a href="#">PRICING</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">CONTACT</a>
+        </div>
+        <hr />
+        <div class="footer-bottom">© 2023 EATLY All Rights Reserved.</div>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

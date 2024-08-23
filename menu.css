@@ -1,0 +1,245 @@
+.section1-container-blog {
+  padding-top: 70px;
+}
+.image-food-subscribe-block {
+  position: relative;
+  bottom: 135px;
+  justify-content: right;
+}
+.text-area-subscribe {
+  text-align: left;
+  color: white;
+  padding: 20px 20px;
+}
+.title-text-subscribe-section1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.title-date-subscribe-section1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: rgba(124, 111, 205, 1);
+}
+.block-subscribe-sale-section7 {
+  height: 123px;
+}
+.pizza-select-container {
+  background-color: rgba(255, 222, 138, 1);
+  max-width: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.name-of-food-pizza-select {
+  color: rgba(214, 153, 0, 1);
+}
+.asian-select-container {
+  background-color: rgba(247, 197, 186, 1);
+  max-width: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 4px solid rgba(251, 71, 29, 0.5);
+}
+.name-of-food-asian-select {
+  color: rgba(251, 71, 29, 1);
+}
+.donat-select-container {
+  background-color: rgba(237, 182, 107, 1);
+  max-width: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.name-of-food-donat-select {
+  color: rgba(226, 139, 20, 1);
+}
+.icecream-select-container {
+  background-color: rgba(135, 125, 200, 0.25);
+  max-width: 40px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.name-of-food-icecream-select {
+  color: rgba(0, 32, 115, 1);
+}
+.food-select-block-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.price-select-block-container {
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: white;
+
+  border-radius: 20px;
+}
+.title-name-of-block-price {
+  font-size: 18px;
+  font-weight: 600;
+}
+.delivery-two-text-price {
+  display: flex;
+  justify-content: space-between;
+}
+.recomended-parag-price {
+  color: rgba(172, 173, 185, 1);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.delivery-parag-price {
+  color: rgba(108, 95, 188, 1);
+  font-size: 14px;
+  font-weight: 600;
+}
+.recomended-parag-price {
+  padding-top: 10px;
+}
+.price-slider {
+  width: 100%;
+  max-width: 300px;
+}
+
+input[type="range"] {
+  width: 100%;
+  padding: 10px 0 10px 0;
+}
+
+#priceValue {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.price-for-slider {
+  display: flex;
+  gap: 24px;
+}
+.style-of-price-parag-slider {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(194, 195, 203, 1);
+}
+.button-danger-slider {
+  padding-top: 30px;
+}
+.apply-btn-slider {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 11px;
+  border: none;
+  height: 50px;
+  background-color: #6c5fbc;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input {
+  border: none;
+  background-color: rgba(237, 237, 237, 1);
+  height: 54px;
+  width: 100%;
+  border-radius: 10px;
+  max-width: 310px;
+}
+.food-btn-input-section1 {
+  border: 2px solid rgba(108, 95, 188, 1);
+  height: 51px;
+  width: 100%;
+  max-width: 157px;
+  background: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.food-btn-input-section1:hover {
+  background-color: #6c5fbc;
+  color: white;
+}
+.restaunt-btn-input-section1 {
+  background-color: #6c5fbc;
+  color: white;
+  height: 51px;
+  width: 100%;
+  max-width: 157px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border: none;
+}
+.restaunt-btn-input-section1:hover {
+  background: none;
+  border: 2px solid #6c5fbc;
+  color: black;
+}
+.buttons-input-section1 {
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+}
+.section5-container,
+.section3-container {
+  padding-top: 100px;
+}
+@media (min-width: 900px) {
+  .cards-container-section4,
+  .cards-container-section5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .section1-container-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 120px 0 120px;
+  }
+  .container-food_price-input {
+    width: 70%;
+  }
+  .title-text-subscribe-section1 {
+    font-size: 80px;
+  }
+  .title-date-subscribe-section1 {
+    font-size: 87px;
+  }
+  .block-subscribe-sale-section7 {
+    height: 250px;
+  }
+  .image-food-subscribe-desktop-block {
+    bottom: 200px;
+  }
+  .cards-container-section4,
+  .cards-container-section5 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  input {
+    max-width: 100%;
+    height: 75px;
+  }
+  .buttons-input-section1 {
+    padding-top: 35px;
+  }
+  .food-btn-input-section1,
+  .restaunt-btn-input-section1 {
+    height: 75px;
+    max-width: 750px;
+  }
+  .title-name-of-block-price {
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+
+  .cards-container-section4 {
+    align-items: center;
+  }
+  .info-danger-area-card2 {
+    font-size: 18px;
+    width: 200px;
+
+    max-width: 82px;
+  }
+  .info-area-card1 {
+    max-width: 72px;
+    font-size: 18px;
+  }
+}
